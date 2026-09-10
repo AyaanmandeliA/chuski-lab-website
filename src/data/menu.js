@@ -1,9 +1,12 @@
 import foodLemon from '../assets/images/food-lemon.jpg'
 import foodTropicalPop from '../assets/images/food-tropical-pop.jpg'
 import foodMangoPop from '../assets/images/food-mango-pop.jpg'
+import foodMatkaKulfi from '../assets/images/food-matka-kulfi.jpg'
+import foodKulfiSticks from '../assets/images/food-kulfi-sticks.jpg'
+import foodChuski from '../assets/images/food-chuski.jpg'
+import foodKulfiBombs from '../assets/images/food-kulfi-bombs.jpg'
 
-// Real photos only — Ayaan is sending more, so several items are still `image: null`
-// until a real shot exists. Do not fall back to the earlier AI concept-art crops.
+// Real photos only — do not fall back to the earlier AI concept-art crops.
 export const menuItems = [
   {
     name: 'Fresh Whole Fruit Ice Cream',
@@ -16,7 +19,7 @@ export const menuItems = [
     name: 'Matka Kulfi',
     price: 15,
     flavors: 'Ras Malai, Gulab Jamun, Gajar Ka Halwa.',
-    image: null,
+    image: foodMatkaKulfi,
     accent: 'energy-orange',
   },
   {
@@ -30,7 +33,7 @@ export const menuItems = [
     name: 'Kulfi Sticks',
     price: 12,
     flavors: 'Malai Delight, Paan Masti, Kesar Mixed Dry Fruit.',
-    image: null,
+    image: foodKulfiSticks,
     accent: 'neon-teal',
   },
   {
@@ -44,14 +47,14 @@ export const menuItems = [
     name: 'Chuski',
     price: 12,
     flavors: 'Orange, Kala Khatta.',
-    image: null,
+    image: foodChuski,
     accent: 'chuski-blue',
   },
   {
     name: 'Kulfi Bombs',
     price: 10,
     flavors: 'Paan Masti, Green Guava / Chilli, Gulkand, Kesar Mixed Dry Fruit, Jamun, Mango.',
-    image: null,
+    image: foodKulfiBombs,
     accent: 'energy-orange',
   },
 ]
