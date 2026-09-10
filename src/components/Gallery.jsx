@@ -1,15 +1,15 @@
-import frontage from '../assets/images/real-frontage.jpg'
-import storefront from '../assets/images/real-storefront.jpg'
-import foodPineapple from '../assets/images/food-pineapple.jpg'
-import foodBerryPop from '../assets/images/food-berry-pop.jpg'
-import foodRawMango from '../assets/images/food-raw-mango.jpg'
+import kioskGlow from '../assets/images/real-kiosk-glow.jpg'
+import counterDisplay from '../assets/images/real-counter-display.jpg'
+import foodWholeFruitTrio from '../assets/images/food-whole-fruit-trio.jpg'
+import foodCutPopsiclesVivid from '../assets/images/food-cut-popsicles-vivid.jpg'
+import foodFrozenMangoStrawberry from '../assets/images/food-frozen-mango-strawberry.jpg'
 
 const ITEMS = [
-  { img: frontage, caption: 'The kiosk, Sahara Center', span: 'sm:col-span-2 sm:row-span-2', ring: 'ring-lab-pink/40' },
-  { img: storefront, caption: 'In the mall', span: 'sm:row-span-2', ring: 'ring-chuski-blue/40' },
-  { img: foodPineapple, caption: 'Whole fruit ice cream', span: 'sm:row-span-2', ring: 'ring-energy-orange/40' },
-  { img: foodBerryPop, caption: 'Fresh cut fruit popsicles', span: 'sm:col-span-2', ring: 'ring-neon-teal/50' },
-  { img: foodRawMango, caption: 'Kairi Kaccha Aam', span: 'sm:col-span-2', ring: 'ring-lab-pink/40' },
+  { img: kioskGlow, caption: 'The kiosk, Sahara Center', span: 'sm:col-span-2 sm:row-span-2', ring: 'ring-lab-pink/40' },
+  { img: counterDisplay, caption: 'In the mall', span: 'sm:row-span-2', ring: 'ring-chuski-blue/40' },
+  { img: foodWholeFruitTrio, caption: 'Whole fruit ice cream', span: 'sm:row-span-2', ring: 'ring-energy-orange/40' },
+  { img: foodCutPopsiclesVivid, caption: 'Fresh cut fruit popsicles', span: 'sm:col-span-2', ring: 'ring-neon-teal/50' },
+  { img: foodFrozenMangoStrawberry, caption: 'Kairi Kaccha Aam', span: 'sm:col-span-2', ring: 'ring-lab-pink/40' },
 ]
 
 export default function Gallery() {
