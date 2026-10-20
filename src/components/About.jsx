@@ -28,7 +28,7 @@ export default function About() {
           </p>
 
           <div className="mt-9 grid grid-cols-2 gap-4 sm:max-w-md">
-            <Fact label="Format" value="Kiosk + Retail" accent="chuski-blue" />
+            <Fact label="Format" value="Operating kiosk" accent="chuski-blue" />
             <Fact label="Location" value="Sahara Center, Sharjah" accent="lab-pink" />
           </div>
         </div>

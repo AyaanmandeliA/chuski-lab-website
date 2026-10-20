@@ -19,8 +19,12 @@ export default function Location() {
 
             <div className="mt-8 flex flex-col gap-4">
               <InfoRow label="Status" value="Now open" dot="bg-lab-pink" />
-              <InfoRow label="Format" value="Kiosk counter + packaged retail" dot="bg-neon-teal" />
+              <InfoRow label="Format" value="Operating kiosk" dot="bg-neon-teal" />
             </div>
+
+            <p className="mt-4 font-body text-sm leading-relaxed text-ink-navy/65">
+              Packaged retail and other expansion channels are in development.
+            </p>
 
             <div className="mt-9 flex flex-wrap gap-4">
               <a
@@ -32,7 +36,7 @@ export default function Location() {
                 Get Directions
               </a>
               <a
-                href="https://instagram.com"
+                href="https://www.instagram.com/chuski.lab/"
                 target="_blank"
                 rel="noreferrer"
                 className="inline-flex items-center gap-2 rounded-full border-2 border-chuski-blue px-6 py-3 font-display text-sm font-bold text-blue-text transition hover:bg-chuski-blue hover:text-white"
